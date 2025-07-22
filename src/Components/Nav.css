@@ -130,9 +130,9 @@ padding-top: 15px;
     .menu-icon{
         display: block;
         color: white;
-        position: absolute;
+        position: relative;
         right: 10px;
-        top: 35px;
+    
     }
 
        .right.open{
