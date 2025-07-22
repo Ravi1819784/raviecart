@@ -34,9 +34,8 @@ const Home = ({todo}) => {
 
 <Category/>
 <Trending/>
-
 <ProductList ProductItem={fashionProducts} title={"Fashion Product's"}/>
-<ProductList ProductItem={electronicsProducts} title={"Electronics Product's"} />
+<ProductList ProductItem={electronicsProducts} title={"Electronics Product's"}/>
 
   <Card todo={todo}/>
   
