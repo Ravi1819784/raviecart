@@ -95,7 +95,7 @@ padding-top: 15px;
     align-items: center;
      position: absolute;
     top: 70px;
-    right: 0px;
+    right: 20px;
         background-color: #4fa7fa;
 }
 
@@ -141,7 +141,7 @@ padding-top: 15px;
         flex-direction: column;
         position: absolute;
         top: 70px;
-        right: 0px;
+        right: 25px;
         background-color: #4fa7fa;
         color: white;
         text-align: center;
@@ -162,7 +162,7 @@ padding-top: 15px;
     .cross{
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 25px;
 }
 .cross-icon{
     height: 25px;
@@ -173,6 +173,4 @@ padding-top: 15px;
     
 }
 
-@media (max-width:) {
-    
-}
+
