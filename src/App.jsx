@@ -3,7 +3,7 @@ import { BrowserRouter, Route ,Routes } from 'react-router-dom'
 import './App.css'
 import Nav from './Components/Nav'
 
-import Home from './Home/HOme'
+import Home from './Home/Home'
 import Admin from './Components/Admin'
 import { createContext, useEffect, useState } from 'react'
 import Gadget from './Components/Gadget'
