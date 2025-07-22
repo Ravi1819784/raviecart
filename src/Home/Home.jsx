@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from './Header/Header'
-import Section from './Section/SEction'
+// import Section from './Section/Section'
 // import Footer from './Footer/Footer'
 import Card from '../Components/Card'
 import Category from '../Components/Category'
