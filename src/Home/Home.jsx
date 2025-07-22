@@ -6,7 +6,7 @@ import Card from '../Components/Card'
 import Category from '../Components/Category'
 import Key from './Footer/Key'
 import Trending from '../Components/Trending'
-import ProductLIst from '../Components/ProductList'
+import ProductList from '../Components/ProductList'
 import { products } from '../Components/data'
 import Gadget from '../Components/Gadget'
 
@@ -35,8 +35,8 @@ const Home = ({todo}) => {
 <Category/>
 <Trending/>
 
-<ProductLIst ProductItem={fashionProducts} title={"Fashion Product's"}/>
-<ProductLIst ProductItem={electronicsProducts} title={"Electronics Product's"} />
+<ProductList ProductItem={fashionProducts} title={"Fashion Product's"}/>
+<ProductList ProductItem={electronicsProducts} title={"Electronics Product's"} />
 
   <Card todo={todo}/>
   
