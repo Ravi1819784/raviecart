@@ -36,8 +36,6 @@ color: rgb(255, 255, 255);
 color: white;
 font-size: 0.95rem;
 letter-spacing: 1.5px;
-/* display: flex;
-align-items: center; */
 margin-top: 50px;
 }
 
@@ -107,4 +105,10 @@ flex-direction: column;
 align-items: center;
 text-align: center;
     }
+}
+
+@media (max-width:360px) {
+  .main-footer{
+    overflow-x: hidden;
+  }
 }

@@ -24,6 +24,7 @@ justify-content: center;
    box-shadow: rgba(226, 225, 225, 0.16) 0px 1px 4px;
    display: flex;
    gap: 10px;
+ 
 }
 .trending-img{
     width: 28%;
