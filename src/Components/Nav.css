@@ -130,6 +130,9 @@ padding-top: 15px;
     .menu-icon{
         display: block;
         color: white;
+        position: absolute;
+        right: 10px;
+        top: 35px;
     }
 
        .right.open{
@@ -162,7 +165,7 @@ padding-top: 15px;
     .cross{
     position: absolute;
     top: 5px;
-    right: 25px;
+    right: 10px;
 }
 .cross-icon{
     height: 25px;
