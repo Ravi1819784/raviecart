@@ -3,6 +3,7 @@ import Header from './Header/Header'
 // import Section from './Section/Section'
 // import Footer from './Footer/Footer'
 import Card from '../Components/Card'
+import "./Home.css"
 import Category from '../Components/Category'
 import Key from './Footer/Key'
 import Trending from '../Components/Trending'

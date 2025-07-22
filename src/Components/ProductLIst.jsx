@@ -48,13 +48,13 @@ const ProductLIst = ({ProductItem,title}) => {
             <p style={{textDecorationLine: 'line-through',color:"brown"}}><del>₹{product.Price +100}</del></p>
             <p style={{color:"green"}}>₹{product.Price}</p>
            </div>
-           <div className="rating-list">
+           <p className="rating-list">
            <MdStarRate />
            <MdStarRate />
            <MdStarRate />
            <MdStarRate />
            <MdStarRate />
-           </div>
+           </p>
               </div>
                  </Link>
             </div>))})}

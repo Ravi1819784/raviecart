@@ -95,18 +95,18 @@ padding-top: 15px;
     align-items: center;
      position: absolute;
     top: 70px;
-    right: 20px;
+    right: 0px;
         background-color: #4fa7fa;
 }
 
 .cross{
     position: absolute;
-    top: 25px;
-    right: 25px;
+    top: 15px;
+    right: 10px;
 }
 .cross-icon{
-    height: 25px;
-    width: 25px;
+    height: 17px;
+    width: 17px;
     color: white;
     font-weight: bold;
 }
@@ -132,7 +132,6 @@ padding-top: 15px;
         color: white;
         position: relative;
         right: 10px;
-    
     }
 
        .right.open{
@@ -144,7 +143,7 @@ padding-top: 15px;
         flex-direction: column;
         position: absolute;
         top: 70px;
-        right: 25px;
+        right: 0px;
         background-color: #4fa7fa;
         color: white;
         text-align: center;
