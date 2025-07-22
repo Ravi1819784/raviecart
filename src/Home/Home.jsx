@@ -6,7 +6,7 @@ import Card from '../Components/Card'
 import Category from '../Components/Category'
 import Key from './Footer/Key'
 import Trending from '../Components/Trending'
-import ProductLIst from '../Components/ProductLIst'
+import ProductLIst from '../Components/ProductList'
 import { products } from '../Components/data'
 import Gadget from '../Components/Gadget'
 
