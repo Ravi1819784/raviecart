@@ -1,0 +1,45 @@
+.contact{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact h2{
+    color: rgb(16, 66, 247);
+}
+.line{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(218, 43, 124);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
