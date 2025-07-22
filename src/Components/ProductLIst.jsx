@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./ProductList.css"
 import { MdStarRate } from "react-icons/md";
 import { Link } from 'react-router-dom';
-const ProductList = ({ProductItem,title}) => {
+const ProductLIst = ({ProductItem,title}) => {
 
     const [imageChange, setImageChange] = useState("");
     const [imageIndex, setImageIndex] = useState("");
@@ -66,4 +66,4 @@ const ProductList = ({ProductItem,title}) => {
   )
 }
 
-export default ProductList
+export default ProductLIst
