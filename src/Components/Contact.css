@@ -3,7 +3,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .contact h2{
@@ -16,6 +16,16 @@
 }
 .contact-icons{
     color: black;
+
+}
+
+.contact-mobile-icons{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.contact-mobile-icons:hover{
+     color: rgb(5, 91, 250);
 }
 .contact-icons:hover{
     color: rgb(5, 91, 250);

@@ -14,7 +14,7 @@ const Contact = () => {
 
             <div className="contact-icons"><MdOutlineEmail className="email-icon" /> : ravisingh17200@gmail.com</div>
           <a href="https://wa.me/917828618763"style={{ textDecoration: "none", color: "black" }}>     <div className="contact-icons"><FaWhatsapp className="whatsapp-icon" /> : 7828618763</div></a>
-            <div className="contact-icons" style={{ textDecoration: "none"}}><FaPhoneAlt className="mobile-icon" /> : 7828618763</div>
+            <div className="contact-mobile-icons" style={{ textDecoration: "none"}}><FaPhoneAlt className="mobile-icon" /> : 7828618763</div>
           </div>
             
   </>
