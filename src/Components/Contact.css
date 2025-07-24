@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 20px;
 }
+
 .contact h2{
     color: rgb(16, 66, 247);
 }
@@ -12,6 +13,12 @@
     height: 3px;
     width: 200px;
     background-color: rgb(218, 43, 124);
+}
+.contact-icons{
+    color: black;
+}
+.contact-icons:hover{
+    color: rgb(5, 91, 250);
 }
 
 

@@ -5,13 +5,34 @@
  display: flex; 
  flex-wrap: wrap; 
  justify-content: space-evenly;
+}
 
+.hm{
+       color: rgb(194, 195, 197);
+font-size: 1.08rem;
+margin-top: 40px;
+    text-decoration: underline;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-thickness: 2px;
+text-underline-offset: 10px;
+}
+
+.hm:hover{
+        text-decoration: underline;
+text-decoration-color: rgb(228, 28, 194);
+text-decoration-thickness: 3px;
+text-underline-offset: 10px;
+color: rgb(255, 255, 255);
 }
 
 .footer-social h2{
    color: rgb(194, 195, 197);
 font-size: 1.08rem;
-margin-top: 50px;
+margin-top: 40px;
+    text-decoration: underline;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-thickness: 2px;
+text-underline-offset: 10px;
 }
 .footer-social h2:hover{
         text-decoration: underline;
@@ -36,13 +57,17 @@ color: rgb(255, 255, 255);
 color: white;
 font-size: 0.95rem;
 letter-spacing: 1.5px;
-margin-top: 50px;
+margin-top: 40px;
 }
 
 .about-footer h2{
      color: rgb(194, 195, 197);
 font-size: 1.08rem;
-margin-top: 50px;
+margin-top: 40px;
+    text-decoration: underline;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-thickness: 2px;
+text-underline-offset: 10px;
 }
 .footer-about-link{
     display: flex;
@@ -71,7 +96,11 @@ color: rgb(255, 255, 255);
 .contact-footer h2{
      color: rgb(181, 181, 181);
 font-size: 1.08rem;
-margin-top: 50px;
+margin-top: 40px;
+    text-decoration: underline;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-thickness: 2px;
+text-underline-offset: 10px;
 }
 .contact-footer h2:hover{
     text-decoration: underline;
@@ -96,7 +125,10 @@ color: rgb(255, 255, 255);
     color: rgb(13, 149, 245);
 }
 
+.contact-icon:hover{
 
+    color: rgb(247, 144, 144);
+}
 
 @media (max-width:991px) {
     
