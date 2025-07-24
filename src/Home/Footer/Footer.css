@@ -138,10 +138,6 @@ align-items: center;
 text-align: center;
     }
 
-    .copyright{
-    margin-top: 0px;
-      color: red;
-    }
 }
 
 @media (max-width:768px) {
