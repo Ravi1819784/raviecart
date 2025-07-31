@@ -6,10 +6,9 @@ import { productContext } from "../App";
 const SingleProductPage = () => {
   const { id } = useParams();
 
-  
   const [SingleProduct] = products.filter((SingleItem) => SingleItem.Id == id);
 
-  const {cartProduct,setCartProduct}=useContext(productContext)
+  const { cartProduct, setCartProduct } = useContext(productContext);
 
   const [isAvailableToCart, setIsAvailableToCart] = useState(false);
 
@@ -23,34 +22,33 @@ const SingleProductPage = () => {
     setProductImage(img);
   };
 
-    const handlAddToCart = () => {
-      const isAddedToCart = cartProduct?.filter(
-        (SingleItem) => SingleItem?.Id == SingleProduct?.Id
-      );
-  
-      if (isAddedToCart.length > 0) {
-        alert("Product is added to cart");
-        setIsAvailableToCart(true);
-        return null;
-      }
-  
-      setCartProduct([...cartProduct, SingleProduct]);
-    };
-  
-    useEffect(() => {
-      const isAddedToCart = cartProduct?.filter(
-        (SingleItem) => SingleItem?.Id == SingleProduct?.Id
-      );
-  
-      if (isAddedToCart.length > 0) {
-        setIsAvailableToCart(true);
-      }
-  
-      if (isAddedToCart.length == 0) {
-        setIsAvailableToCart(false);
-      }
-    }, [cartProduct, SingleProduct]);
+  const handlAddToCart = () => {
+    const isAddedToCart = cartProduct?.filter(
+      (SingleItem) => SingleItem?.Id == SingleProduct?.Id
+    );
 
+    if (isAddedToCart.length > 0) {
+      alert("Product is added to cart");
+      setIsAvailableToCart(true);
+      return null;
+    }
+
+    setCartProduct([...cartProduct, SingleProduct]);
+  };
+
+  useEffect(() => {
+    const isAddedToCart = cartProduct?.filter(
+      (SingleItem) => SingleItem?.Id == SingleProduct?.Id
+    );
+
+    if (isAddedToCart.length > 0) {
+      setIsAvailableToCart(true);
+    }
+
+    if (isAddedToCart.length == 0) {
+      setIsAvailableToCart(false);
+    }
+  }, [cartProduct, SingleProduct]);
 
   return (
     <>
@@ -88,9 +86,7 @@ const SingleProductPage = () => {
 
         <div className="right-cart">
           <div className="right-cart-text">
-            <h3 className="heading-rights">
-              {SingleProduct.Heading}
-            </h3>
+            <h3 className="heading-rights">{SingleProduct.Heading}</h3>
             <div className="cart-text">
               <b>
                 <h3 className="cart-text-heading">Model</h3>
@@ -121,28 +117,29 @@ const SingleProductPage = () => {
               </b>
               <p>Rating</p>
             </div>
-            <p className="description">{SingleProduct.Description } </p>
+            <p className="description">{SingleProduct.Description} </p>
 
             <div className="cart-btn">
               {/* <button className="gotocart">
                               GoToCart
                             </button> */}
-                            {isAvailableToCart ? (<Link to="/cart"> { <button className="gotocart">
-                              GoToCart
-                            </button> }</Link>) :(<button className="addtocart" onClick={handlAddToCart}>AddToCart</button>)}
+              {isAvailableToCart ? (
+                <Link to="/cart">
+                  {" "}
+                  {<button className="gotocart">GoToCart</button>}
+                </Link>
+              ) : (
+                <button className="addtocart" onClick={handlAddToCart}>
+                  AddToCart
+                </button>
+              )}
 
-
-        
-
-              <button className="buynow">Buy Now</button>
-              {/* <button className="addtocart">AddToCart</button>
-              <button className="buynow">Buy Now</button> */}
+              <Link to="/cart">
+                {" "}
+                <button className="buynow">Buy Now</button>
+              </Link>
             </div>
           </div>
-        </div>
-        <div className="message">
-          {/*           
-         "You will also like these product's" */}
         </div>
       </div>
     </>
