@@ -30,7 +30,7 @@ const Contact = () => {
           href="tel:+917828618763"
           style={{ textDecoration: "none", color: "black" }}
         >
-          <div   className="contact-icons"><FaPhoneAlt className="mobile-icon" /> : +91-7828618763</div>
+          <div   className="contact-mobile-icons"><FaPhoneAlt className="mobile-icon" /> : +91-7828618763</div>
   
         </a>
       </div>
